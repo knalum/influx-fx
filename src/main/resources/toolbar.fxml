@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+
+<ToolBar prefHeight="40.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neladyn.controller.Toolbar">
+    <items>
+        <Label text="Influx DB URL" />
+        <TextField fx:id="serverField" prefWidth="300.0" />
+      <Label text="Database" />
+        <ChoiceBox fx:id="databaseChoiceBox" prefWidth="150.0" />
+        <Label fx:id="connectionStatusLabel" />
+    </items>
+</ToolBar>
